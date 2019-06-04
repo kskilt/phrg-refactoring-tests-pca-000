@@ -12,7 +12,7 @@ gem "sqlite3", "~> 1.3.6"
 gem "uglifier", ">= 1.3.0"
 
 group :development, :test do
-  gem "factory_bot_rails"
+  gem "factory_bot_rails", "~> 4.8.2"
   gem "pry"
   gem "rspec-rails"
   gem "rubocop"
